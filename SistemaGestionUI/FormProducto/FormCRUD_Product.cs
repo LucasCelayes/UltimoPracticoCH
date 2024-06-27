@@ -99,6 +99,11 @@ namespace SistemaGestionUI.FormProducto
             this.Close();
             FormInit.formProduct.Show();
         }
+
+        private void lblProduct_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

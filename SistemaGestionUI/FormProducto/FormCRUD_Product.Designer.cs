@@ -49,121 +49,139 @@
             // lblProduct
             // 
             lblProduct.AutoSize = true;
-            lblProduct.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            lblProduct.Location = new Point(41, 18);
+            lblProduct.Font = new Font("Showcard Gothic", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblProduct.ForeColor = Color.Blue;
+            lblProduct.Location = new Point(59, 51);
+            lblProduct.Margin = new Padding(4, 0, 4, 0);
             lblProduct.Name = "lblProduct";
-            lblProduct.Size = new Size(104, 25);
+            lblProduct.Size = new Size(191, 35);
             lblProduct.TabIndex = 0;
             lblProduct.Text = "Productos";
+            lblProduct.Click += lblProduct_Click;
             // 
             // lblDescription
             // 
             lblDescription.AutoSize = true;
-            lblDescription.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblDescription.Location = new Point(41, 148);
+            lblDescription.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblDescription.Location = new Point(66, 239);
+            lblDescription.Margin = new Padding(4, 0, 4, 0);
             lblDescription.Name = "lblDescription";
-            lblDescription.Size = new Size(72, 15);
+            lblDescription.Size = new Size(152, 26);
             lblDescription.TabIndex = 1;
             lblDescription.Text = "Descripcion";
             // 
             // lblCost
             // 
             lblCost.AutoSize = true;
-            lblCost.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblCost.Location = new Point(41, 206);
+            lblCost.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblCost.Location = new Point(66, 335);
+            lblCost.Margin = new Padding(4, 0, 4, 0);
             lblCost.Name = "lblCost";
-            lblCost.Size = new Size(38, 15);
+            lblCost.Size = new Size(82, 26);
             lblCost.TabIndex = 2;
             lblCost.Text = "Costo";
             // 
             // lblSellPrice
             // 
             lblSellPrice.AutoSize = true;
-            lblSellPrice.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblSellPrice.Location = new Point(41, 260);
+            lblSellPrice.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblSellPrice.Location = new Point(38, 425);
+            lblSellPrice.Margin = new Padding(4, 0, 4, 0);
             lblSellPrice.Name = "lblSellPrice";
-            lblSellPrice.Size = new Size(94, 15);
+            lblSellPrice.Size = new Size(195, 26);
             lblSellPrice.TabIndex = 3;
             lblSellPrice.Text = "Precio de Venta";
             // 
             // lblStock
             // 
             lblStock.AutoSize = true;
-            lblStock.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblStock.Location = new Point(41, 318);
+            lblStock.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblStock.Location = new Point(59, 523);
+            lblStock.Margin = new Padding(4, 0, 4, 0);
             lblStock.Name = "lblStock";
-            lblStock.Size = new Size(39, 15);
+            lblStock.Size = new Size(82, 26);
             lblStock.TabIndex = 4;
             lblStock.Text = "Stock";
             // 
             // lblSeller
             // 
             lblSeller.AutoSize = true;
-            lblSeller.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblSeller.Location = new Point(41, 371);
+            lblSeller.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblSeller.Location = new Point(59, 611);
+            lblSeller.Margin = new Padding(4, 0, 4, 0);
             lblSeller.Name = "lblSeller";
-            lblSeller.Size = new Size(77, 15);
+            lblSeller.Size = new Size(156, 26);
             lblSeller.TabIndex = 5;
             lblSeller.Text = "ID Vendedor";
             // 
             // txtDescription
             // 
-            txtDescription.Location = new Point(178, 140);
+            txtDescription.Location = new Point(254, 233);
+            txtDescription.Margin = new Padding(4, 5, 4, 5);
             txtDescription.Name = "txtDescription";
-            txtDescription.Size = new Size(239, 23);
+            txtDescription.Size = new Size(340, 31);
             txtDescription.TabIndex = 6;
             // 
             // txtCost
             // 
-            txtCost.Location = new Point(178, 198);
+            txtCost.Location = new Point(254, 330);
+            txtCost.Margin = new Padding(4, 5, 4, 5);
             txtCost.Name = "txtCost";
-            txtCost.Size = new Size(239, 23);
+            txtCost.Size = new Size(340, 31);
             txtCost.TabIndex = 7;
             // 
             // txtSellPrice
             // 
-            txtSellPrice.Location = new Point(178, 252);
+            txtSellPrice.Location = new Point(254, 424);
+            txtSellPrice.Margin = new Padding(4, 5, 4, 5);
             txtSellPrice.Name = "txtSellPrice";
-            txtSellPrice.Size = new Size(239, 23);
+            txtSellPrice.Size = new Size(340, 31);
             txtSellPrice.TabIndex = 8;
             // 
             // txtStock
             // 
-            txtStock.Location = new Point(178, 310);
+            txtStock.Location = new Point(254, 518);
+            txtStock.Margin = new Padding(4, 5, 4, 5);
             txtStock.Name = "txtStock";
-            txtStock.Size = new Size(239, 23);
+            txtStock.Size = new Size(340, 31);
             txtStock.TabIndex = 9;
             // 
             // txtUserId
             // 
-            txtUserId.Location = new Point(178, 363);
+            txtUserId.Location = new Point(254, 611);
+            txtUserId.Margin = new Padding(4, 5, 4, 5);
             txtUserId.Name = "txtUserId";
-            txtUserId.Size = new Size(239, 23);
+            txtUserId.Size = new Size(340, 31);
             txtUserId.TabIndex = 10;
             // 
             // lblId
             // 
             lblId.AutoSize = true;
-            lblId.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblId.Location = new Point(41, 95);
+            lblId.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblId.Location = new Point(59, 151);
+            lblId.Margin = new Padding(4, 0, 4, 0);
             lblId.Name = "lblId";
-            lblId.Size = new Size(74, 15);
+            lblId.Size = new Size(160, 26);
             lblId.TabIndex = 11;
             lblId.Text = "ID Producto";
             // 
             // txtProductId
             // 
-            txtProductId.Location = new Point(178, 87);
+            txtProductId.Location = new Point(254, 146);
+            txtProductId.Margin = new Padding(4, 5, 4, 5);
             txtProductId.Name = "txtProductId";
             txtProductId.ReadOnly = true;
-            txtProductId.Size = new Size(239, 23);
+            txtProductId.Size = new Size(340, 31);
             txtProductId.TabIndex = 12;
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(259, 436);
+            btnSave.Font = new Font("Segoe UI Variable Display", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSave.ForeColor = Color.Blue;
+            btnSave.Location = new Point(370, 727);
+            btnSave.Margin = new Padding(4, 5, 4, 5);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(75, 23);
+            btnSave.Size = new Size(107, 38);
             btnSave.TabIndex = 15;
             btnSave.Text = "Guardar";
             btnSave.UseVisualStyleBackColor = true;
@@ -171,9 +189,12 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(178, 436);
+            btnDelete.Font = new Font("Segoe UI Variable Display", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnDelete.ForeColor = Color.Blue;
+            btnDelete.Location = new Point(254, 727);
+            btnDelete.Margin = new Padding(4, 5, 4, 5);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(75, 23);
+            btnDelete.Size = new Size(107, 38);
             btnDelete.TabIndex = 14;
             btnDelete.Text = "Eliminar";
             btnDelete.UseVisualStyleBackColor = true;
@@ -181,9 +202,12 @@
             // 
             // btnBack
             // 
-            btnBack.Location = new Point(97, 436);
+            btnBack.Font = new Font("Segoe UI Variable Display", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnBack.ForeColor = Color.Blue;
+            btnBack.Location = new Point(139, 727);
+            btnBack.Margin = new Padding(4, 5, 4, 5);
             btnBack.Name = "btnBack";
-            btnBack.Size = new Size(75, 23);
+            btnBack.Size = new Size(107, 38);
             btnBack.TabIndex = 13;
             btnBack.Text = "Volver";
             btnBack.UseVisualStyleBackColor = true;
@@ -191,9 +215,9 @@
             // 
             // FormCRUD_Product
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(452, 514);
+            ClientSize = new Size(646, 857);
             Controls.Add(btnSave);
             Controls.Add(btnDelete);
             Controls.Add(btnBack);
@@ -210,6 +234,7 @@
             Controls.Add(lblCost);
             Controls.Add(lblDescription);
             Controls.Add(lblProduct);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "FormCRUD_Product";
             Text = "Productos";
             Load += FormCRUD_Product_Load;

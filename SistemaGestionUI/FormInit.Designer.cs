@@ -34,6 +34,7 @@ partial class FormInit
         btnSellProduct = new Button();
         btnSell = new Button();
         btnExit = new Button();
+        label1 = new Label();
         SuspendLayout();
         // 
         // Title
@@ -113,12 +114,24 @@ partial class FormInit
         btnExit.UseVisualStyleBackColor = true;
         btnExit.Click += btnExit_Click;
         // 
+        // label1
+        // 
+        label1.AutoSize = true;
+        label1.Font = new Font("Showcard Gothic", 16F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+        label1.ForeColor = SystemColors.ButtonFace;
+        label1.Location = new Point(355, 179);
+        label1.Name = "label1";
+        label1.Size = new Size(426, 40);
+        label1.TabIndex = 6;
+        label1.Text = "Introductora Slender";
+        // 
         // FormInit
         // 
         AutoScaleDimensions = new SizeF(10F, 25F);
         AutoScaleMode = AutoScaleMode.Font;
         BackColor = SystemColors.WindowText;
         ClientSize = new Size(1143, 750);
+        Controls.Add(label1);
         Controls.Add(btnExit);
         Controls.Add(btnSell);
         Controls.Add(btnSellProduct);
@@ -140,4 +153,5 @@ partial class FormInit
     private Button btnSellProduct;
     private Button btnSell;
     private Button btnExit;
+    private Label label1;
 }

@@ -45,83 +45,100 @@
             // lblSellProduct
             // 
             lblSellProduct.AutoSize = true;
-            lblSellProduct.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            lblSellProduct.Location = new Point(64, 44);
+            lblSellProduct.Font = new Font("Showcard Gothic", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblSellProduct.ForeColor = Color.Blue;
+            lblSellProduct.Location = new Point(38, 43);
+            lblSellProduct.Margin = new Padding(4, 0, 4, 0);
             lblSellProduct.Name = "lblSellProduct";
-            lblSellProduct.Size = new Size(192, 25);
+            lblSellProduct.Size = new Size(347, 35);
             lblSellProduct.TabIndex = 0;
             lblSellProduct.Text = "Productos Vendidos";
             // 
             // lblIdSellProduct
             // 
             lblIdSellProduct.AutoSize = true;
-            lblIdSellProduct.Location = new Point(64, 142);
+            lblIdSellProduct.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblIdSellProduct.Location = new Point(38, 165);
+            lblIdSellProduct.Margin = new Padding(4, 0, 4, 0);
             lblIdSellProduct.Name = "lblIdSellProduct";
-            lblIdSellProduct.Size = new Size(116, 15);
+            lblIdSellProduct.Size = new Size(261, 26);
             lblIdSellProduct.TabIndex = 1;
             lblIdSellProduct.Text = "ID Producto Vendido";
             // 
             // lblStock
             // 
             lblStock.AutoSize = true;
-            lblStock.Location = new Point(64, 207);
+            lblStock.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblStock.Location = new Point(49, 244);
+            lblStock.Margin = new Padding(4, 0, 4, 0);
             lblStock.Name = "lblStock";
-            lblStock.Size = new Size(36, 15);
+            lblStock.Size = new Size(82, 26);
             lblStock.TabIndex = 2;
             lblStock.Text = "Stock";
             // 
             // lblIdProduct
             // 
             lblIdProduct.AutoSize = true;
-            lblIdProduct.Location = new Point(64, 269);
+            lblIdProduct.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblIdProduct.Location = new Point(49, 320);
+            lblIdProduct.Margin = new Padding(4, 0, 4, 0);
             lblIdProduct.Name = "lblIdProduct";
-            lblIdProduct.Size = new Size(70, 15);
+            lblIdProduct.Size = new Size(160, 26);
             lblIdProduct.TabIndex = 3;
             lblIdProduct.Text = "ID Producto";
             // 
             // lblIdSell
             // 
             lblIdSell.AutoSize = true;
-            lblIdSell.Location = new Point(64, 325);
+            lblIdSell.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            lblIdSell.Location = new Point(49, 417);
+            lblIdSell.Margin = new Padding(4, 0, 4, 0);
             lblIdSell.Name = "lblIdSell";
-            lblIdSell.Size = new Size(50, 15);
+            lblIdSell.Size = new Size(108, 26);
             lblIdSell.TabIndex = 4;
             lblIdSell.Text = "ID Venta";
             // 
             // txtIdSellProduct
             // 
-            txtIdSellProduct.Location = new Point(270, 134);
+            txtIdSellProduct.Location = new Point(339, 164);
+            txtIdSellProduct.Margin = new Padding(4, 5, 4, 5);
             txtIdSellProduct.Name = "txtIdSellProduct";
             txtIdSellProduct.ReadOnly = true;
-            txtIdSellProduct.Size = new Size(213, 23);
+            txtIdSellProduct.Size = new Size(303, 31);
             txtIdSellProduct.TabIndex = 5;
             // 
             // txtStock
             // 
-            txtStock.Location = new Point(270, 199);
+            txtStock.Location = new Point(339, 238);
+            txtStock.Margin = new Padding(4, 5, 4, 5);
             txtStock.Name = "txtStock";
-            txtStock.Size = new Size(213, 23);
+            txtStock.Size = new Size(303, 31);
             txtStock.TabIndex = 6;
             // 
             // txtProductId
             // 
-            txtProductId.Location = new Point(270, 261);
+            txtProductId.Location = new Point(339, 314);
+            txtProductId.Margin = new Padding(4, 5, 4, 5);
             txtProductId.Name = "txtProductId";
-            txtProductId.Size = new Size(213, 23);
+            txtProductId.Size = new Size(303, 31);
             txtProductId.TabIndex = 7;
             // 
             // txtSellId
             // 
-            txtSellId.Location = new Point(270, 317);
+            txtSellId.Location = new Point(339, 411);
+            txtSellId.Margin = new Padding(4, 5, 4, 5);
             txtSellId.Name = "txtSellId";
-            txtSellId.Size = new Size(213, 23);
+            txtSellId.Size = new Size(303, 31);
             txtSellId.TabIndex = 8;
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(302, 388);
+            btnSave.Font = new Font("Segoe UI Variable Display", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSave.ForeColor = Color.Blue;
+            btnSave.Location = new Point(482, 588);
+            btnSave.Margin = new Padding(4, 5, 4, 5);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(75, 23);
+            btnSave.Size = new Size(107, 38);
             btnSave.TabIndex = 18;
             btnSave.Text = "Guardar";
             btnSave.UseVisualStyleBackColor = true;
@@ -129,9 +146,12 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(221, 388);
+            btnDelete.Font = new Font("Segoe UI Variable Display", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnDelete.ForeColor = Color.Blue;
+            btnDelete.Location = new Point(293, 588);
+            btnDelete.Margin = new Padding(4, 5, 4, 5);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(75, 23);
+            btnDelete.Size = new Size(107, 38);
             btnDelete.TabIndex = 17;
             btnDelete.Text = "Eliminar";
             btnDelete.UseVisualStyleBackColor = true;
@@ -139,9 +159,12 @@
             // 
             // btnBackSellProduct
             // 
-            btnBackSellProduct.Location = new Point(140, 388);
+            btnBackSellProduct.Font = new Font("Segoe UI Variable Display", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnBackSellProduct.ForeColor = Color.Blue;
+            btnBackSellProduct.Location = new Point(121, 588);
+            btnBackSellProduct.Margin = new Padding(4, 5, 4, 5);
             btnBackSellProduct.Name = "btnBackSellProduct";
-            btnBackSellProduct.Size = new Size(75, 23);
+            btnBackSellProduct.Size = new Size(107, 38);
             btnBackSellProduct.TabIndex = 16;
             btnBackSellProduct.Text = "Volver";
             btnBackSellProduct.UseVisualStyleBackColor = true;
@@ -149,9 +172,9 @@
             // 
             // FormCRUD_SellProduct
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(525, 450);
+            ClientSize = new Size(750, 750);
             Controls.Add(btnSave);
             Controls.Add(btnDelete);
             Controls.Add(btnBackSellProduct);
@@ -164,6 +187,7 @@
             Controls.Add(lblStock);
             Controls.Add(lblIdSellProduct);
             Controls.Add(lblSellProduct);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "FormCRUD_SellProduct";
             Text = "Productos vendidos";
             Load += FormCRUD_SellProduct_Load;

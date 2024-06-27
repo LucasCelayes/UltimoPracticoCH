@@ -88,5 +88,10 @@ namespace SistemaGestionUI.FormVenta
             FormInit.formSell.sellId = 0;
             FormInit.formSell.Show();
         }
+
+        private void lblUserId_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

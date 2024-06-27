@@ -48,9 +48,12 @@ partial class FormCrud_User
         // 
         // button1
         // 
-        button1.Location = new Point(112, 338);
+        button1.Font = new Font("Segoe UI Variable Display", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        button1.ForeColor = Color.Blue;
+        button1.Location = new Point(160, 563);
+        button1.Margin = new Padding(4, 5, 4, 5);
         button1.Name = "button1";
-        button1.Size = new Size(75, 23);
+        button1.Size = new Size(107, 38);
         button1.TabIndex = 0;
         button1.Text = "Volver";
         button1.UseVisualStyleBackColor = true;
@@ -58,9 +61,12 @@ partial class FormCrud_User
         // 
         // button2
         // 
-        button2.Location = new Point(193, 338);
+        button2.Font = new Font("Segoe UI Variable Display", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        button2.ForeColor = Color.Blue;
+        button2.Location = new Point(276, 563);
+        button2.Margin = new Padding(4, 5, 4, 5);
         button2.Name = "button2";
-        button2.Size = new Size(75, 23);
+        button2.Size = new Size(107, 38);
         button2.TabIndex = 1;
         button2.Text = "Eliminar";
         button2.UseVisualStyleBackColor = true;
@@ -68,9 +74,12 @@ partial class FormCrud_User
         // 
         // button3
         // 
-        button3.Location = new Point(274, 338);
+        button3.Font = new Font("Segoe UI Variable Display", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        button3.ForeColor = Color.Blue;
+        button3.Location = new Point(391, 563);
+        button3.Margin = new Padding(4, 5, 4, 5);
         button3.Name = "button3";
-        button3.Size = new Size(75, 23);
+        button3.Size = new Size(107, 38);
         button3.TabIndex = 2;
         button3.Text = "Guardar";
         button3.UseVisualStyleBackColor = true;
@@ -79,121 +88,136 @@ partial class FormCrud_User
         // label1
         // 
         label1.AutoSize = true;
-        label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-        label1.Location = new Point(33, 59);
+        label1.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+        label1.Location = new Point(53, 91);
+        label1.Margin = new Padding(4, 0, 4, 0);
         label1.Name = "label1";
-        label1.Size = new Size(20, 15);
+        label1.Size = new Size(36, 26);
         label1.TabIndex = 3;
         label1.Text = "ID";
+        label1.Click += label1_Click;
         // 
         // label2
         // 
         label2.AutoSize = true;
-        label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-        label2.Location = new Point(33, 98);
+        label2.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+        label2.Location = new Point(47, 156);
+        label2.Margin = new Padding(4, 0, 4, 0);
         label2.Name = "label2";
-        label2.Size = new Size(53, 15);
+        label2.Size = new Size(101, 26);
         label2.TabIndex = 4;
         label2.Text = "Nombre";
         // 
         // label3
         // 
         label3.AutoSize = true;
-        label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-        label3.Location = new Point(33, 143);
+        label3.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+        label3.Location = new Point(43, 230);
+        label3.Margin = new Padding(4, 0, 4, 0);
         label3.Name = "label3";
-        label3.Size = new Size(52, 15);
+        label3.Size = new Size(115, 26);
         label3.TabIndex = 5;
         label3.Text = "Apellido";
         // 
         // label4
         // 
         label4.AutoSize = true;
-        label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-        label4.Location = new Point(33, 194);
+        label4.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+        label4.Location = new Point(43, 310);
+        label4.Margin = new Padding(4, 0, 4, 0);
         label4.Name = "label4";
-        label4.Size = new Size(49, 15);
+        label4.Size = new Size(105, 26);
         label4.TabIndex = 6;
         label4.Text = "Usuario";
         // 
         // label5
         // 
         label5.AutoSize = true;
-        label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-        label5.Location = new Point(37, 280);
+        label5.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+        label5.Location = new Point(53, 459);
+        label5.Margin = new Padding(4, 0, 4, 0);
         label5.Name = "label5";
-        label5.Size = new Size(30, 15);
+        label5.Size = new Size(63, 26);
         label5.TabIndex = 7;
         label5.Text = "Mail";
         // 
         // label6
         // 
         label6.AutoSize = true;
-        label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-        label6.Location = new Point(33, 235);
+        label6.Font = new Font("Showcard Gothic", 10F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+        label6.Location = new Point(24, 379);
+        label6.Margin = new Padding(4, 0, 4, 0);
         label6.Name = "label6";
-        label6.Size = new Size(69, 15);
+        label6.Size = new Size(147, 26);
         label6.TabIndex = 8;
         label6.Text = "Contrasena";
         // 
         // txtId
         // 
-        txtId.Location = new Point(134, 51);
+        txtId.Location = new Point(191, 85);
+        txtId.Margin = new Padding(4, 5, 4, 5);
         txtId.Name = "txtId";
         txtId.ReadOnly = true;
-        txtId.Size = new Size(215, 23);
+        txtId.Size = new Size(305, 31);
         txtId.TabIndex = 9;
         // 
         // txtNombre
         // 
-        txtNombre.Location = new Point(134, 90);
+        txtNombre.Location = new Point(191, 150);
+        txtNombre.Margin = new Padding(4, 5, 4, 5);
         txtNombre.Name = "txtNombre";
-        txtNombre.Size = new Size(215, 23);
+        txtNombre.Size = new Size(305, 31);
         txtNombre.TabIndex = 10;
         // 
         // txtApellido
         // 
-        txtApellido.Location = new Point(134, 135);
+        txtApellido.Location = new Point(191, 225);
+        txtApellido.Margin = new Padding(4, 5, 4, 5);
         txtApellido.Name = "txtApellido";
-        txtApellido.Size = new Size(215, 23);
+        txtApellido.Size = new Size(305, 31);
         txtApellido.TabIndex = 11;
         // 
         // txtUsuario
         // 
-        txtUsuario.Location = new Point(134, 186);
+        txtUsuario.Location = new Point(193, 305);
+        txtUsuario.Margin = new Padding(4, 5, 4, 5);
         txtUsuario.Name = "txtUsuario";
-        txtUsuario.Size = new Size(215, 23);
+        txtUsuario.Size = new Size(305, 31);
         txtUsuario.TabIndex = 12;
         // 
         // txtPass
         // 
-        txtPass.Location = new Point(134, 227);
+        txtPass.Location = new Point(179, 374);
+        txtPass.Margin = new Padding(4, 5, 4, 5);
         txtPass.Name = "txtPass";
-        txtPass.Size = new Size(215, 23);
+        txtPass.Size = new Size(305, 31);
         txtPass.TabIndex = 13;
         // 
         // txtMail
         // 
-        txtMail.Location = new Point(134, 272);
+        txtMail.Location = new Point(191, 453);
+        txtMail.Margin = new Padding(4, 5, 4, 5);
         txtMail.Name = "txtMail";
-        txtMail.Size = new Size(215, 23);
+        txtMail.Size = new Size(305, 31);
         txtMail.TabIndex = 14;
         // 
         // lblUser
         // 
         lblUser.AutoSize = true;
-        lblUser.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-        lblUser.Location = new Point(33, 9);
+        lblUser.Font = new Font("Showcard Gothic", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+        lblUser.ForeColor = Color.Blue;
+        lblUser.Location = new Point(53, 26);
+        lblUser.Margin = new Padding(4, 0, 4, 0);
         lblUser.Name = "lblUser";
-        lblUser.Size = new Size(89, 25);
+        lblUser.Size = new Size(158, 35);
         lblUser.TabIndex = 15;
         lblUser.Text = "Usuarios";
         // 
         // FormCrud_User
         // 
-        AutoScaleDimensions = new SizeF(7F, 15F);
+        AutoScaleDimensions = new SizeF(10F, 25F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(453, 419);
+        ClientSize = new Size(647, 698);
         Controls.Add(lblUser);
         Controls.Add(txtMail);
         Controls.Add(txtPass);
@@ -210,6 +234,7 @@ partial class FormCrud_User
         Controls.Add(button3);
         Controls.Add(button2);
         Controls.Add(button1);
+        Margin = new Padding(4, 5, 4, 5);
         Name = "FormCrud_User";
         Text = "Gestion de Usuarios";
         Load += FormCrud_User_Load;
